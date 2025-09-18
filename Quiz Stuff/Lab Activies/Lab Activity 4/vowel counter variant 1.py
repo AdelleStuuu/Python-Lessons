@@ -1,28 +1,28 @@
 vowels = ['a','e','i','o','u']
 
 phrase = input('Enter a phrase: ')
-a = 0
-e = 0
-iL = 0
-o = 0
-u = 0
+aLetter = 0
+eLetter = 0
+iLetter = 0
+oLetter = 0
+uLetter = 0
 
 for i in phrase:
-    iCon = i.lower()
-    if iCon in vowels:
-        if iCon == 'a':
-            a += 1
-        elif iCon == 'e':
-            e += 1
-        elif iCon == 'i':
-            iL += 1
-        elif iCon == 'o':
-            o += 1
-        elif iCon == 'u':
-            u += 1
+    iConverted = i.lower()
+    if iConverted in vowels:
+        if iConverted == 'a':
+            aLetter += 1
+        elif iConverted == 'e':
+            eLetter += 1
+        elif iConverted == 'i':
+            iLetter += 1
+        elif iConverted == 'o':
+            oLetter += 1
+        elif iConverted == 'u':
+            uLetter += 1
 
-print(f"A =  {a}")
-print(f"E =  {e}")
-print(f"I =  {iL}")
-print(f"O =  {o}")
-print(f"U =  {u}")
+print(f"A =  {aLetter}")
+print(f"E =  {eLetter}")
+print(f"I =  {iLetter}")
+print(f"O =  {oLetter}")
+print(f"U =  {uLetter}")
