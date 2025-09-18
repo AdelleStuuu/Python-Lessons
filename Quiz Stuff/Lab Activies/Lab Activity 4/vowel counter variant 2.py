@@ -17,5 +17,3 @@ for i in convertedPhrase:
     
 for letter,amount in vowels.items():
     print(f"{letter} =  {amount}")
-
-
