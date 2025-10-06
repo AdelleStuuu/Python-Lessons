@@ -1,0 +1,5 @@
+first = input("Enter the first string: ")
+second = input("Enter the second string: ")
+print(f"Length of the first string: {len(first)}")
+print(f"Length of the second string: {len(second)}")
+print(f"Sum: {len(first+second)}")
