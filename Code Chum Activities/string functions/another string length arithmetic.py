@@ -1,0 +1,8 @@
+first = input("Enter the first string: ")
+second = input("Enter the second string: ")
+third = input("Enter the third string: ")
+print(f"Length of the first string: {len(first)}")
+print(f"Length of the second string: {len(second)}")
+print(f"Length of the third string: {len(third)}")
+result = int(len(first+second)/len(third))
+print(f"Result: {result}")
