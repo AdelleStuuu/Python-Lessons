@@ -1,0 +1,1 @@
+import math; print(f"Area of Pentagon: {(1/4*(math.sqrt(5*(5+2*math.sqrt(5)))*math.pow(float(input('Enter side: ')),2))):.2f}")
