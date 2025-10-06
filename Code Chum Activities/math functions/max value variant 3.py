@@ -1,0 +1,1 @@
+import math;print(f"The largest number is: {int(max((input('Enter the first number: '),input('Enter the second number: '))))}")
