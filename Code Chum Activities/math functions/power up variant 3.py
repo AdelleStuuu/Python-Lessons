@@ -1,0 +1,1 @@
+import math;print(f"Result: {math.pow(float(input('Enter the base: ')),float(input('Enter the exponent: '))):.2f}")
