@@ -11,7 +11,5 @@ for i in phrase:
         phrase = phrase.replace(i,i.upper())
     else:
         phrase = phrase.replace(i,i.lower())
-    
-    
-        
+         
 print(f"Processed string: {phrase}")
