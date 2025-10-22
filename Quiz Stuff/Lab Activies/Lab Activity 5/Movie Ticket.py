@@ -34,5 +34,5 @@ match discount_code:
 # multiply the price and and discount before multiplying quantity
 def compute(movie_code,discount_code,quantity):
     return (movie_code * discount_code) * quantity
-
+# print the result
 print(f"The total is P{compute(price,discount,quantity):.2f}")
